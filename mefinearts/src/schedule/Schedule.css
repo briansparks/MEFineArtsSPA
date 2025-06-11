@@ -1,0 +1,47 @@
+#ScheduleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 10px;
+  height: 75vh;
+}
+
+.EventList {
+  list-style: none;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+.EventItem {
+  gap: 1.5rem;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+/* Standard iPad in landscape mode (iPad Air/Pro landscape) */
+@media (max-width: 1024px) {
+  .EventList {
+    font-size: 1.2em;
+  }
+}
+
+/* Medium tablets in portrait (iPad Air, Galaxy Tab) */
+@media (max-width: 834px) {
+  .EventList {
+    font-size: 1em;
+  }
+}
+
+/* Most modern smartphones (iPhone 13, Galaxy S21, etc.) */
+@media (max-width: 480px) {
+  .EventList {
+    font-size: 0.8em;
+  }
+}
+
+/* iPhone 12, 13 Mini, Pixel 4a */
+@media (max-width: 414px) {
+  .EventList {
+    font-size: 0.7em;
+  }
+}

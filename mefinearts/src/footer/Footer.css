@@ -1,0 +1,13 @@
+#FooterContainer {
+  background-color: black;
+  color: white;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Links {
+  color: white;
+  text-decoration: none;
+}

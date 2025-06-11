@@ -1,0 +1,14 @@
+#HomeImageContainer {
+  width: 100%;
+  height: 80vh;
+}
+
+#HomeImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  font-family: "Helvetica 1957", Helvetica, Arial, sans-serif;
+}

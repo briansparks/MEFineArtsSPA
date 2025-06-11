@@ -1,0 +1,21 @@
+.ScheduleContainer {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.EventLocation {
+  margin: 3em;
+}
+
+.EventName {
+  flex: 2;
+}
+
+.EventLocation {
+  flex: 1.5;
+}
+
+.EventDate {
+  flex: 1;
+}
